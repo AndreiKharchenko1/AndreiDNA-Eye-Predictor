@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Genome RS Counter</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>AndreiDNA free eye color predictor</h1>
+    <p>Based on Trait Predictor's version of NOSHACOT eyecolor predictor</p>
+    <div class="button-container">
+      <input type="file" id="file-input" accept=".txt, .csv" hidden>
+      <label for="file-input" class="slider-button">Upload Genome File</label>
+    </div>
+    <div id="result" class="result hidden">
+      <h2>Result</h2>
+      <p>Number of snps in file: <span id="count"></span></p>
+      <p>Number of snps used for prediction: <span id="snpcount"></span></p>
+      <h3>Predicted eye color: </h3>
+      <p> Blue : <span id="blue"> </span></p>
+      <p> Green : <span id = "green"></span></p>
+      <p> Blue with Amber Center Ring : <span id="BluewAmber"></span></p>
+      <p> Hazel : <span id="Hazel"></span></p>
+      <p> Brown/Amber : <span id = "Brown"></span></p>
+      <p> Dark Brown : <span id="darkbrown"></span></p>
+      <h3>Closest Eye Colors:</h3>
+  <div id="color-images">
+    <img id="closestColor" src="" width="500" height="500" alt="Closest Color" /><p>Distance: <span id="D1"></span></p>
+   
+    <img id="secondClosestColor" src="" width="500" height="500" alt="Second Closest Color" /><p>Distance: <span id="D2"></span></p>
+    <img id="thirdClosestColor" src="" width="500" height="500" alt="Third Closest Color" /><p>Distance: <span id="D3"></span></p>
+  </div>
+   <h3>Two Way Eyecolor Oracle</h3>
+  <div class="image-container">
+    <!-- Closest Pair -->
+    <img id="closestColor1_1" width="500" height="500" src="" alt="Closest Pair Image 1">
+    <img id="closestColor1_2" width="500" height="500" src="" alt="Closest Pair Image 2">
+    <p>Distance = <span id="D1_TWO"></span></p>
+  </div>
+  
+      </script>
+      
+    </div>
+  </div>
+    </div>
+    
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
