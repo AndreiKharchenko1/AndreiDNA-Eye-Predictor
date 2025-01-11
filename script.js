@@ -197,7 +197,7 @@ let hashMAP_colors = [
     [5,15,15,50,15,0],
     [5,10,10,30,30,15],
     [0,10,5,30,45,10],
-    [5,40,25,25,5,0],
+    [5,25,20,45,5,0],
     [15,10,50,20,5,0]
 ]
  document.getElementById("file-input").addEventListener("change", handleFileUpload);
