@@ -560,7 +560,7 @@ d_brown = d_brown * 0.97; hazel = hazel * 0.7; green = green * 0.54;
 if (line.includes("rs1800407")&& (line.includes('rs1800407"') || line.includes("rs1800407,") || line.includes("rs1800407	"))) {
 if (line.includes("TT") || line.includes("T	T")) {
    
-    blue_amber = blue_amber * 0.06; blue = blue * 0.05; l_brown = brown * 0.06;
+    blue_amber = blue_amber * 0.06; blue = blue * 0.05; l_brown = l_brown * 0.06;
 d_brown = d_brown * 0.03; hazel = hazel * 0.1; green = green * 0.07;
 } else if (line.includes("TC") || line.includes("T	C") || line.includes("CT") || line.includes("C	T") ) {
   
