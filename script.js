@@ -32,6 +32,9 @@ let medium_brown_url = "https://i.imgur.com/L9gxPMR.png";
 let light_hazel_url = "https://i.imgur.com/liJHqj7.png";
 let sage_green_url = "https://i.imgur.com/hKfKNS7.png";
 
+let blue_w_grey_url = "https://i.imgur.com/iPSx2re.png";
+let light_green_url = "https://i.imgur.com/S10vtUZ.png";
+let Green_yellow_url = "https://i.imgur.com/Msn3BKv.png";
 function generateClosest(urls, colors, result) {
     let var_1 = Infinity;  // Set to Infinity for initial comparison
     let var_2 = Infinity;
@@ -184,11 +187,11 @@ function update2Way(URL1_1, URL1_2, URL2_1, URL2_2, URL3_1, URL3_2, D1, D2, D3) 
     console.log(URL1_1, URL1_2, D1);
 
   }
-let url_hashmap = [blue_amber_url,blue_url,blue_green_url,black_url,yellow_green_url,green_url,grey_url,hazel_url,light_brown_url,medium_brown_url,light_hazel_url,sage_green_url]; 
+let url_hashmap = [blue_amber_url,blue_url,blue_green_url,black_url,yellow_green_url,green_url,grey_url,hazel_url,light_brown_url,medium_brown_url,light_hazel_url,sage_green_url, blue_w_grey_url, light_green_url,Green_yellow_url]; 
 //Blue - Blueamber - Green - Hazel - Light Brown - Dark Brown
 let hashMAP_colors = [
     [25,40,20,10,5,0],
-    [40,30,25,5,0,0],
+    [45,25,25,5,0,0],
     [30,40,20,10,0,0],
     [0,0,0,5,40,55],
     [10,20,30,35,5,0],
@@ -198,7 +201,12 @@ let hashMAP_colors = [
     [5,10,10,30,30,15],
     [0,10,5,30,45,10],
     [5,25,20,45,5,0],
-    [15,10,50,20,5,0]
+    [15,10,50,20,5,0],
+    [35,25,30,10,0,0],
+    [20,40,30,10,0,0],
+    [15,30,35,20,0,0]
+
+
 ]
  document.getElementById("file-input").addEventListener("change", handleFileUpload);
  // Define images and opacities globally
